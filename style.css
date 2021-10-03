@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+​
+#container{
+    height: 30em;
+    width: 30em;
+    background-color: limegreen;
+}
+​
+#imageHolder{
+    height: 100%;
+    width: 100%;
+}
