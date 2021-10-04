@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,30 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./index.js"></script>
 </head>
+
 <body>
-    <button id="leftButton"> ≪ </button>
-        <img id="imageHolder" alt="There should be an image here!">
+    <!-- This is the CSS carousel animation -->
+    <h1>CSS Carousel</h1>
+    <div id="cssWindow">
+        <div id="imgSlider">
+            <img src="https://cdn.vox-cdn.com/thumbor/cb_0MvRJ2pnqKgSb5fmAQ8OrL9o=/0x0:1212x727/920x613/filters:focal(510x268:702x460):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/59693947/rick_and_morty_s02_still.0.jpg" width="200px" height="200px" alt="">
+            <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F611182f736d1dc35c8cf31d3%2FRick-and-Morty%2F960x0.jpg%3Ffit%3Dscale" width="200px" height="200px" alt="">
+            <img src="https://cdn.mos.cms.futurecdn.net/h4F9sAFM7FCP4pdwFz9ngW-970-80.jpg.webp" width="200px" height="200px" alt="">
+            <img src="https://cdn.vox-cdn.com/thumbor/cb_0MvRJ2pnqKgSb5fmAQ8OrL9o=/0x0:1212x727/920x613/filters:focal(510x268:702x460):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/59693947/rick_and_morty_s02_still.0.jpg" width="200px" height="200px" alt="">
+        </div>
     </div>
-    <button id="rightButton"> ≫ </button>
-​
+
+    <!-- This is the JS carousel.  -->
+    <h1 style="margin-top: 100px";>JavaScript Carousel</h1>
+    <div id="jsWindow">
+        <button id="leftButton"> ≪ </button>
+        <div id="container">
+            <img id="imageHolder" alt="There should be an image here!">
+        </div>
+        <button id="rightButton"> ≫ </button>
+    </div>
+
+    ​
 </body>
+
 </html>

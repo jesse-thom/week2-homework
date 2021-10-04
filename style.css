@@ -1,16 +1,57 @@
 body{
-    background-color: black;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-​
+
+#cssWindow{
+    display: flex;
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    overflow: hidden; 
+}
+
+#imgSlider{
+    display: flex;
+    animation: carousel 10s infinite;
+}
+
+@keyframes carousel{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(-600px);
+    }
+}
+
+#leftButton{
+    width: 25px;
+    height: 50px;
+    align-self: center;   
+}
+
+#rightButton{
+    width: 25px;
+    height: 50px;
+    align-self: center;
+}
+
+#jsWindow{
+    display: flex;
+   }
+
 #container{
-    height: 30em;
-    width: 30em;
-    background-color: limegreen;
+    width: 200px;
+    height: 200px;
 }
-​
+
 #imageHolder{
     height: 100%;
     width: 100%;
 }
+
+
+
+
